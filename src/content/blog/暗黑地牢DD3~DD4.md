@@ -1,7 +1,7 @@
 ---
 title: "暗黑地牢DD3~DD4"
 description: "暗黑地牢DD3~DD4实况+攻略"
-pubDate: "June 26th 2025"
+pubDate: "Jul 01 2024"
 image: /image/image3.png
 categories:
   - Documentation
