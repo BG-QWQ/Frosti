@@ -2,13 +2,12 @@
 title: "暗黑地牢DD3~DD4"
 description: "暗黑地牢DD3~DD4实况+攻略"
 pubDate: "June 26 2025"
-image: /image/image3.png
+image: /image/暗黑地牢.jpg
 categories:
-  - Documentation
-  - Examples
+  - 游戏
+  - 攻略
 tags:
-  - Makrdown
-badge: Pin
+  - 暗黑地牢
 ---
 
 <h1>暗黑地牢DD3~DD4
