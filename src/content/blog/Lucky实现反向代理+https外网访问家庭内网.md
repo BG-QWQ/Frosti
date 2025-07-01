@@ -14,8 +14,8 @@ tags:
 
 > #### 首先你需要一个域名，为后面做准备
 
-1. [免费的二级域名](dash.domain.digitalplat.org)也行，或者直接[买一个域名](namesilo.com)
-2. 选择一个你喜欢的DNS服务商，我选用的是[cloudflare](dash.cloudflare.com)接下来都以[cloudflare](dash.cloudflare.com)作为演示
+1. [免费的二级域名](https://dash.domain.digitalplat.org)也行，或者直接[买一个域名](https://namesilo.com)
+2. 选择一个你喜欢的DNS服务商，我选用的是[cloudflare](https://dash.cloudflare.com)接下来都以[cloudflare](https://dash.cloudflare.com)作为演示
 
 > 将域名添加进cloudflare
 
@@ -29,7 +29,7 @@ tags:
 
 选择免费计划，当然，如果你有钱的话，选付费的也未尝不可
 
-![微信截图_20250630210050.png](https://img.bugong.dpdns.org/file/1751288482934_微信截图_20250630210050.png)
+![微信截图_20250630210050.png](https://img.bugong.dpdns.org/file/Lucky/1751288482934_微信截图_20250630210050.png)
 
 接着根据提示激活即可都大差不差这里就不做演示了，因为我已经添加过了，如果实在不会，可以去搜一下教学接着，根据提示激活即可都大差不差这里就不做演示了，因为我已经添加过了，如果实在不会，可以去搜一下教学
 
