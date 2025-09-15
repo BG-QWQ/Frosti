@@ -8,10 +8,11 @@ import { defineConfig } from "astro/config";
 import rehypeExternalLinks from "rehype-external-links";
 import rehypeKatex from "rehype-katex";
 import remarkMath from "remark-math";
-
 import { CODE_THEME, USER_SITE } from "./src/config.ts";
 
-import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
+import updateConfig from "./src/integration/updateConfig.ts";
+
+import { remarkReadingTime } from "./src/plugins/remark-reading-time";
 
 // https://astro.build/config
 export default defineConfig({
@@ -23,6 +24,7 @@ export default defineConfig({
     },
   },
   integrations: [
+    updateConfig(),
     mdx(),
     icon(),
     terser({
