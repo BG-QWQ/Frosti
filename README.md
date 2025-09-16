@@ -54,7 +54,7 @@ npm i -g pnpm
 2. Clone the project
 
 ```sh
-git clone https://github.com/EveSunMaple/Frosti.git Frosti
+git clone https://github.com/1502538344/Frosti.git Frosti
 ```
 
 3. Enter the project folder
