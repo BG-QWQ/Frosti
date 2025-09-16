@@ -13,6 +13,7 @@ src/i18n/translations.yaml
 # --- 用户内容 ---
 # 保护您所有的文章和页面
 src/content/
+src/components/CommentSection.astro
 # 保护您放置在 public 目录下的所有文件（如图片、favicon 等）
 public/
 # 保护您自己的 README 文件
