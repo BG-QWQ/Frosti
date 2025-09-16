@@ -8,13 +8,16 @@
 
 # --- 核心配置文件 ---
 frosti.config.yaml
+astro.config.mjs
+package.json
 src/i18n/translations.yaml
 
 # --- 用户内容 ---
 # 保护您所有的文章和页面
 src/content/
-src/components/CommentSection.astro
+src/components/Comment.tsx
 src/pages/blog/[...slug].astro
+src/pages/og/[slug].png.ts
 # 保护您放置在 public 目录下的所有文件（如图片、favicon 等）
 public/
 # 保护您自己的 README 文件
@@ -25,6 +28,9 @@ docs/README.zh-CN.md
 .git/
 dist/
 node_modules/
+package-lock.json
+pnpm-lock.yaml
+tsconfig.json
 
 # --- 脚本和脚本自身 ---
 frosti.update.sh
