@@ -3,7 +3,7 @@ A clean, elegant, and fast static blog template! 🚀 Built with Astro
 </pre>
 
 <div align="center">
-<img alt="Frosti Logo" src="https://github.com/EveSunMaple/Frosti/blob/main/docs/logo.png" width="280px">
+<img alt="Frosti Logo" src="https://github.com/1502538344/Frosti/blob/main/docs/logo.png" width="280px">
 </div>
 
 [![license](https://badgen.net/github/license/1502538344/Frosti)](https://github.com/1502538344/Frosti/blob/main/LICENSE)&nbsp;&nbsp;&nbsp;[![release](https://badgen.net/github/release/1502538344/Frosti)](https://github.com/1502538344/Frosti/releases)&nbsp;&nbsp;&nbsp;[![stackblitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg)](https://stackblitz.com/github/EveSunMaple/Frosti)
