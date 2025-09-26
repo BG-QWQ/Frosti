@@ -14,7 +14,7 @@ const sites = [{ name: "Frosti Demo", url: "https://frosti.saroprock.com/" }];
 <BaseLayout title="Friends">
   <CardGroup cols="1">
     <MainCard
-      title="Friends & Resources"
+      title="朋友与资源"
       description="这是一个放朋友和资源的页面，但朋友那一栏被我注释掉了"
       textOverlay="FRIENDS"
       infoIcon="lucide:link"
@@ -130,10 +130,18 @@ const sites = [{ name: "Frosti Demo", url: "https://frosti.saroprock.com/" }];
         <section>
           <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
             <Icon name="lucide:bookmark" class="w-6 h-6 text-primary" />
-            <span>Useful Resources</span>
+            <span>有用资源</span>
           </h2>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <LinkCard
+              title="Frosti"
+              desc="一个干净、优雅、快速的静态博客模板！🚀 使用 Astro 开发"
+              url="https://github.com/EveSunMaple/Frosti"
+              icon="simple-icons:astro"
+              categories={["blog", "astro", "static"]}
+            />
+
             <LinkCard
               title="Astro Documentation"
               desc="The official documentation for Astro, covering everything from getting started to advanced techniques."
