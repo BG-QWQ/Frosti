@@ -8,7 +8,7 @@ import Card from "@/components/temple/Card.astro";
 import CardGroup from "@/components/temple/CardGroup.astro";
 import Showcase from "@/components/mdx/Showcase.astro";
 
-const sites = [{ name: "Frosti Demo", url: "https://frosti.saroprock.com/" }];
+const sites = [{ name: "Frosti Demo", url: "https://frosti.saroprock.com/" },{ name: "Frosti BG", url: "https://bugong.dpdns.org/" }];
 ---
 
 <BaseLayout title="Friends">
@@ -199,7 +199,7 @@ const sites = [{ name: "Frosti Demo", url: "https://frosti.saroprock.com/" }];
             class="btn btn-primary gap-2"
           >
             <Icon name="lucide:github" class="w-5 h-5" />
-            <span>Contribute on GitHub</span>
+            <span>在 GitHub 上贡献</span>
           </a>
         </div>
       <!--</div>-->
@@ -211,7 +211,7 @@ const sites = [{ name: "Frosti Demo", url: "https://frosti.saroprock.com/" }];
             <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-2">
               <h2 class="text-2xl font-bold flex items-center gap-2">
                 <Icon name="lucide:layout-template" class="w-6 h-6 text-primary" />
-                <span>Sites Using Frosti</span>
+                <span>使用Frosti的网站</span>
               </h2>
               <a
                 href="https://github.com/1502538344/Frosti/edit/main/src/pages/friend.astro"
@@ -220,12 +220,11 @@ const sites = [{ name: "Frosti Demo", url: "https://frosti.saroprock.com/" }];
                 class="btn btn-sm btn-outline btn-primary gap-2"
               >
                 <Icon name="lucide:plus-circle" class="w-4 h-4" />
-                Add Your Site
+                添加您的网站
               </a>
             </div>
             <p class="text-base-content/70 mb-6">
-              Here is a list of sites built with Frosti. Want to get your site listed? Click the "Add Your Site" button
-              in the top right to edit this page by submitting a Pull Request!
+              这里列出了使用Frosti构建的网站。想要让你的网站被列入其中？点击右上角的“添加你的网站”按钮，通过提交拉取请求来编辑此页面！
             </p>
             <div class="flex flex-wrap items-center gap-3">
               {sites.map((site) => <Showcase name={site.name} url={site.url} />)}
