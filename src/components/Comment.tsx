@@ -50,7 +50,7 @@ const Comments = () => {
       {mounted && (
         <Giscus
           id={id}
-          repo="1502538344/Giscus"
+          repo="BG-QWQ/Giscus"
           repoId="R_kgDOPwsfOA"
           category="Announcements"
           categoryId="DIC_kwDOPwsfOM4CvfrM"
